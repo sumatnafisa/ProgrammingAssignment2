@@ -13,7 +13,7 @@ setmatrix <- function(y) { #set the value of the matrix
 # Parts removed
 list(setmatrix = setmatrix, getmatrix = getmatrix, # creates a list to house the four functions
    setinverse = setinverse,
-   getinverse = getinverse)
+   getinverse=getinverse)
 }
 
 
