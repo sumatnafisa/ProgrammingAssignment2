@@ -11,8 +11,8 @@ setmatrix <- function(y) { #set the value of the matrix
     m <<- NULL # # sets the value of m (the matrix inverse if used cacheSolve) to NULL
 }
 # Parts removed
-list(setmatrix = setmatrix, getmatrix = getmatrix, # creates a list to house the four functions
-   setinverse = setinverse,
+list(setmatrix=setmatrix, getmatrix = getmatrix, # creates a list to house the four functions
+   setinverse=setinverse,
    getinverse=getinverse)
 }
 
